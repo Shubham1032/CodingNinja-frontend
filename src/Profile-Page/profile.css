@@ -1,0 +1,105 @@
+.profilePageMainDiv{
+    background-color: rgb(228, 226, 226);
+    padding: 15px 30px 15px 30px;
+    height: 100vh;
+}
+.profile-first-head{
+    display: flex;
+    box-sizing: border-box;
+    background-color: white;
+    /* padding: 10px; */
+    border-radius: 10px;
+    padding: 15px 0 15px 0;
+
+}
+.profile-first-head>li{
+    list-style: none;
+    margin-left: 20px;
+    color: blue;
+}
+.profile-avtart-info-div{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    margin: 15px 15px 15px 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.text-muted{
+   color: gray;
+   margin-top: 20px;
+}
+.logout-btn{
+   margin-top: 10px;
+   padding-left: 40px;
+   padding-right: 40px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   font-size: large;
+}
+/*  */
+.avatar{
+    background-image: url('https://w7.pngwing.com/pngs/754/2/png-transparent-samsung-galaxy-a8-a8-user-login-telephone-avatar-pawn-blue-angle-sphere-thumbnail.png');
+    height: 100px;
+    width: 100px;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+    background-position: center;
+    
+}
+.mb-4{
+    display: inline-block;
+    /* width: 100%; */
+    background-color: white;
+    /* padding: 40px 20px 20px 20px; */
+
+}
+.persenol-info{
+
+    display: inline-block;
+    /* width: 100%; */
+    background-color: white;
+    padding: 10px;
+}
+
+
+.key-ans-div{
+    width: 400px;
+    /* height: 20px; */
+    /* padding: 10px; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.profile-keys{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: rgb(87, 86, 86);
+}
+.profile-ans{
+    color: gray;
+    /* margin-right: 40px; */
+    padding-left: 40px;
+    
+}
+
+.prchased-Card-main{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 20px;
+    flex-direction: column;
+    width: 200px;
+    height: 300px;
+}
+.haed-card-own{
+    display: flex;
+    justify-content: space-between;
+    height: 40%;
+    background-color: rgb(226, 224, 224);
+}
+.pb{
+    margin-left: 10px;
+}
